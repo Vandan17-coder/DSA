@@ -1,20 +1,61 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 
+        int first = findFirst(nums, target);
+        int last = findLast(nums, target);
+
+        return new int[]{first, last};
+    }
+
+    // Find first occurrence
+    public int findFirst(int[] nums, int target) {
+
+        int low = 0;
+        int high = nums.length - 1;
         int first = -1;
-        int last = -1;
 
-        for(int i = 0; i < nums.length; i++) {
-            if(nums[i] == target) {
+        while (low <= high) {
 
-                if(first == -1) {
-                    first = i;
-                }
+            int mid = low + (high - low) / 2;
 
-                last = i;
+            if (nums[mid] == target) {
+                first = mid;
+                high = mid - 1;   // search left
+            }
+            else if (nums[mid] < target) {
+                low = mid + 1;
+            }
+            else {
+                high = mid - 1;
             }
         }
 
-        return new int[]{first, last};
+        return first;
+    }
+
+    // Find last occurrence
+    public int findLast(int[] nums, int target) {
+
+        int low = 0;
+        int high = nums.length - 1;
+        int last = -1;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] == target) {
+                last = mid;
+                low = mid + 1;    // search right
+            }
+            else if (nums[mid] < target) {
+                low = mid + 1;
+            }
+            else {
+                high = mid - 1;
+            }
+        }
+
+        return last;
     }
 }
