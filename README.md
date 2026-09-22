@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0162-find-peak-element) |
+| [0217-contains-duplicate](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0724-find-pivot-index](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
 ## Binary Search
@@ -43,10 +44,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 ## Newton's Method
 |  |
 | ------- |
