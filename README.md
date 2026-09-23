@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0217-contains-duplicate](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [0724-find-pivot-index](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
 ## Binary Search
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
+| [0283-move-zeroes](https://github.com/Vandan17-coder/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 ## Sorting
 |  |
 | ------- |
